@@ -14,6 +14,8 @@ else
   exit 1
 fi
 pwsh="$pwsh -NoProfile -NoLogo -NonInteractive"
+# chcp 65001, Modify the output character set
+$pwsh -command "chcp 65001 | Out-Null"
 
 for i in "$@"
 do
