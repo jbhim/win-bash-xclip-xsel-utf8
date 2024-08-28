@@ -28,6 +28,6 @@ Inside the Git Bash or WSL terminal in Microsoft Windows 10 (or newer):
     You may [replace symbolic links in Git by hard or soft links](https://stackoverflow.com/questions/5917249/git-symlinks-in-windows/16754068#16754068) (the latter requiring adminstrator privileges).
     In case `xclip` or `xsel` is already available on your system, see [here](https://github.com/Konfekt/win-bash-xclip-xsel/issues/2#issuecomment-1300222984) if either one takes precedence over those of this repository so that the Windows Clipboad is still not used: either uninstall it, or prepend its containing folder to `$PATH` (instead of appending it).
 
-# Related
+# 增强
 
-The Vim plug-in [vim-wsl-copy-paste](https://github.com/Konfekt/vim-wsl-copy-paste) adds mappings in Vim under WSL to write and read on the Microsoft Windows clipboard 
+增加对中文场景的支持，脚本输出字符集改成utf-8
